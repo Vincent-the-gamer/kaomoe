@@ -3,15 +3,11 @@
   "version": "0.1.0",
   "license": "MIT",
   "author": "Vincent-the-gamer",
-  "bin": {
-    "kaomo": "dist/cli.js"
-  },
   "scripts": {
     "dev": "esno src/cli.ts",
     "server": "esno src/server.ts",
     "fetch": "esno scripts/fetch.ts",
-    "build": "esno scripts/build.ts",
-    "prepare": "npm run build"
+    "build": "esno scripts/build.ts"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
