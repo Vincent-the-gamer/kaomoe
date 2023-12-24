@@ -1,0 +1,27 @@
+{
+  "name": "kaomoe",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Vincent-the-gamer",
+  "bin": {
+    "kaomo": "dist/cli.js"
+  },
+  "scripts": {
+    "dev": "esno src/cli.ts",
+    "server": "esno src/server.ts",
+    "fetch": "esno scripts/fetch.ts",
+    "build": "esno scripts/build.ts",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.10.5",
+    "axios": "^1.6.2",
+    "esno": "^4.0.0",
+    "express": "^4.18.2",
+    "jsdom": "^23.0.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
